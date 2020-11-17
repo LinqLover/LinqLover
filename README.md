@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+<img align="right" src="https://raw.githubusercontent.com/LinqLover/LinqLover/eb36cbe6a9901f28952a650c62c09ac7312cecda/squeak-balloon.svg" height="100">
+
 - ❤ I’m a software-engineering and open-source enthusiast
 - 📧 I’m an active contributor to the [Squeak developers mailing list](http://forum.world.st/Squeak-Dev-f45488.html): [Christoph Thiede on squeak-dev](http://forum.world.st/template/NamlServlet.jtp?macro=user_nodes&user=372205)
 - 🌼 Carpe [Squeak](https://squeak.org)!
