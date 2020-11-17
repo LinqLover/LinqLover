@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+- ❤ I’m a software-engineering and open-source enthusiast
+- 📧 I’m an active contributor to the [Squeak developers mailing list](http://forum.world.st/Squeak-Dev-f45488.html): [Christoph Thiede on squeak-dev](http://forum.world.st/template/NamlServlet.jtp?macro=user_nodes&user=372205)
+- 🌼 Carpe [Squeak](https://squeak.org)!
+
 <!--
 **LinqLover/LinqLover** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
