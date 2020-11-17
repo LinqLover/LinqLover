@@ -4,6 +4,7 @@
 - 📧 I’m an active contributor to the [Squeak developers mailing list](http://forum.world.st/Squeak-Dev-f45488.html): [Christoph Thiede on squeak-dev](http://forum.world.st/template/NamlServlet.jtp?macro=user_nodes&user=372205)
 - 🌼 Carpe [Squeak](https://squeak.org)!
 - ⚡ Fun fact: This Markdown file is CI-validated.
+  
   [![Actions Status](https://github.com/LinqLover/LinqLover/workflows/Markdown%20Validation/badge.svg)](https://github.com/LinqLover/LinqLover/actions)
 
 <!--
