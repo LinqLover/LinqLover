@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Christoph Thiede
 description: Software Engineering student with a strong interest in building programming tools
+github:
+  is_project_page: false
