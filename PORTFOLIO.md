@@ -1,10 +1,7 @@
+<a href="./assets/skills.svg"><img alt="Skills" src="./assets/skills.svg" align="right" height="200"></a>
 Hi, I‘m Christoph! I am a **master student in Computer Science and Software Engineering** and am interested in building and researching **innovative programming tools.** I have developed a novel **back-in-time debugger** for Squeak/Smalltalk, a downstream dependency analysis tool for VS Code, and several other prototypes. As a core developer of the **interactive programming system Squeak,** I explore and contribute to several areas such as its **code browsing tools** and its **regular expression engine.** In my spare time, I also play squash, jazz piano, and am owned by four cats.
 
 ***Contact:** [Email](mailto:christoph.thiede@outlook.de) · [Twitter](https://twitter.com/LinqLover) · [LinkedIn](https://www.linkedin.com/in/christoph-thiede-20a0b8207/) · [GitHub](https://github.com/LinqLover)*
-
-## Skills
-
-<a href="./assets/skills.svg"><img alt="Skills" src="./assets/skills.svg" height="200"></a>
 
 ## Experiences
 
