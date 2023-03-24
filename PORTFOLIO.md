@@ -1,6 +1,8 @@
 ---
+layout: portfolio
 title: Christoph Thiede
 description: Software Engineering student with a strong interest in building programming tools
+resume_url: https://docs.google.com/document/d/1MsDJSUBZddrLP2h0sFrvi5t6IWzlUWMu_asaJrmybSQ
 ---
 
 <a href="./assets/skills.svg"><img alt="Skills" src="./assets/skills.svg" align="right" height="200"></a>
