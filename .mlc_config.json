@@ -1,0 +1,10 @@
+{
+    "ignorePatterns": [
+		{
+            "pattern": "^https://www.linkedin.com"
+        },
+        {
+            "pattern": "^https://www.researchgate.net"
+        }
+    ]
+}
