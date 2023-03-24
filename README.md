@@ -1,10 +1,11 @@
 ### Hi there 👋 [<img align="right" src="https://raw.githubusercontent.com/LinqLover/LinqLover/eb36cbe6a9901f28952a650c62c09ac7312cecda/squeak-balloon.svg" height="100">](https://squeak.org)
 
-- ❤ I’m a software-engineering and open-source enthusiast
-- 📧 I’m an active contributor to the [Squeak developers mailing list](http://forum.world.st/Squeak-Dev-f45488.html): [Christoph Thiede on squeak-dev](http://forum.world.st/template/NamlServlet.jtp?macro=user_nodes&user=372205)
-- 🌼 Carpe [Squeak](https://squeak.org)!
-- ⚡ Fun fact: This Markdown file is CI-validated.  
-  [![Actions Status](https://github.com/LinqLover/LinqLover/workflows/Markdown%20Validation/badge.svg)](https://github.com/LinqLover/LinqLover/actions)
+- ❤ I’m a software engineering and open-source enthusiast
+- ⚙ I have a strong interest in building & researching programming & debugging tools
+- 🎈 I'm a core developer of [Squeak/Smalltalk](https://squeak.org)
+- 🚧 Working on [SimulationStudio](https://github.com/LinqLover/SimulationStudio), [TraceDebugger](https://github.com/hpi-swa-lab/squeak-tracedebugger), and more
+- 📃 Read my [portfolio](./PORTFOLIO.md)
+- ⚡ `\x72(e)[g](\1(?(2)[sS]|x)){1,2}=😎`
 
 <!--
 **LinqLover/LinqLover** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
