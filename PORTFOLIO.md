@@ -107,7 +107,8 @@ Hi, I‘m Christoph! I am a **master student in Computer Science and Software En
 
   2021-04 – 2022-05
   
-  <video alt="Sonyx" src="https://user-images.githubusercontent.com/38782922/131224109-b474991a-5558-4a62-aff4-ed17e512e663.mp4" height="200"><a href="https://youtu.be/t6or4fR2c-k" alt="YouTube"><img alt="Sonyx" src="./assets/sonyx-thumbnail.png" height="200"></img></a></video>
+  <!-- <video alt="Sonyx" src="https://user-images.githubusercontent.com/38782922/131224109-b474991a-5558-4a62-aff4-ed17e512e663.mp4" height="200"> -->
+  <a href="https://youtu.be/t6or4fR2c-k" alt="YouTube"><img alt="Sonyx" src="./assets/sonyx-thumbnail.png" height="200"></a>
   
   Sonyx is a research prototype that attempts to **support exploratory programming tasks** through the use of **auditory displays.** Programmers can define custom **ad-hoc sonifications** of individual program elements to inspect and monitor their source code. Our user study indicated that auditory displays can make programmers more satisfied and effective.
 
