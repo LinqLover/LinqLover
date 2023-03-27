@@ -51,7 +51,8 @@ Hi, I‘m Christoph! I am a **master student in Computer Science and Software En
 - ### B.Sc. IT-Systems Engineering
 
   Hasso Plattner Institute  
-  2017-10 – 2021-03
+  2017-10 – 2021-03  
+  Final grade: 1.5 (very good)
   
   Highlighted courses: Project Management · Programming of User Interfaces · Agile Software Development in Large Teams
 
