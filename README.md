@@ -2,7 +2,7 @@
 
 - ❤ I’m a software engineering and open-source enthusiast
 - ⚙ I have a strong interest in building & researching programming & debugging tools
-- 🎈 I'm a core developer of [Squeak/Smalltalk](https://squeak.org)
+- 🎈 I'm a core developer of [Squeak/Smalltalk](https://squeak.org) (browse all contributions [here](https://lists.squeakfoundation.org/archives/search?q=christoph+thiede&page=1&sort=date-desc))
 - 🚧 Working on [SimulationStudio](https://github.com/LinqLover/SimulationStudio), [TraceDebugger](https://github.com/hpi-swa-lab/squeak-tracedebugger), and more
 - 📃 Read my [portfolio](./PORTFOLIO.md)
 - ⚡ `\x72(e)[g](\1(?(2)[sS]|x)){1,2}=😎`
