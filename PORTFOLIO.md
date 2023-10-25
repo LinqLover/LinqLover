@@ -104,7 +104,7 @@ Hi, I‘m Christoph! I am a **master student in Computer Science and Software En
   
   I developed a **VS Code extension in TypeScript** that **collects downstream dependency projects** for npm packages from GitHub & Co. and allows package developers to **analyze usage samples** from their IDE. I presented the tool and the underlying approach in our [scientific paper](#publications) at the ENASE/2022 conference.
 
-- ### [**Sonyx**](https://hpi.de/neurodesign/projects/sonyx.html)
+- ### [Sonyx](https://hpi.de/neurodesign/projects/sonyx.html)
 
   2021-04 – 2022-05
   
@@ -115,10 +115,10 @@ Hi, I‘m Christoph! I am a **master student in Computer Science and Software En
 
 ## Publications
 
-- Christoph Thiede, Marcel Taeumel, and Robert Hirschfeld. 2023. [Time-Awareness in Object Exploration Tools: Toward In Situ Omniscient Debugging.](https://dl.acm.org/doi/10.1145/3622758.3622892) In *Proceedings of the 2023 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software* (*Onward! ’23*), October 25–27, 2023, Cascais, Portugal. ACM, New York, NY, USA, 14 pages. DOI: [10.1145/3622758.3622892](https://doi.org/10.1145/3622758.3622892).
+- Christoph Thiede, Marcel Taeumel, and Robert Hirschfeld. 2023. [Time-Awareness in Object Exploration Tools: Toward In Situ Omniscient Debugging.](https://dl.acm.org/doi/10.1145/3622758.3622892) In *Proceedings of the 2023 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward! ’23*), October 25–27, 2023, Cascais, Portugal. ACM, New York, NY, USA, 14 pages. DOI: [10.1145/3622758.3622892](https://doi.org/10.1145/3622758.3622892).
 - Christoph Thiede and Patrick Rein. 2023. *[Squeak by Example.](https://wiki.squeak.org/squeak/6546)* 6.0 Edition. ISBN: 978-1-4476-2948-1. [Paperback](https://www.lulu.com/shop/patrick-rein-and-christoph-thiede/squeak-by-example-60/paperback/product-8vr2j2.html)/[PDF](https://github.com/hpi-swa-lab/SqueakByExample-english/releases/tag/6.0).
-- Christoph Thiede, Marcel Taeumel, and Robert Hirschfeld. 2023. [Object-Centric Time-Travel Debugging: Exploring Traces of Objects.](https://doi.org/10.1145/3594671.3594678) In *Companion Proceedings of the 7th International Conference on the Art, Science, and Engineering of Programming* (*\<Programming\>’23 Companion*), March 13–17, 2023, Tokyo, Japan. ACM, New York, NY, USA, 7 pages. DOI: [10.1145/3594671.3594678](https://doi.org/10.1145/3594671.3594678)
-- Christoph Thiede, Willy Scheibel, Daniel Limberger, and Jürgen Döllner. 2022. [Augmenting Library Development by Mining Usage Data from Downstream Dependencies.](https://www.researchgate.net/publication/360231022_Augmenting_Library_Development_by_Mining_Usage_Data_from_Downstream_Dependencies) In *Proceedings of 17th International Conference on Evaluation of Novel Approaches to Software Engineering* (*ENASE 2022*). 221–232. DOI: [10.5220/0011093700003176](https://doi.org/10.5220/0011093700003176)
+- Christoph Thiede, Marcel Taeumel, and Robert Hirschfeld. 2023. [Object-Centric Time-Travel Debugging: Exploring Traces of Objects.](https://doi.org/10.1145/3594671.3594678) In *Companion Proceedings of the 7th International Conference on the Art, Science, and Engineering of Programming (\<Programming\>’23 Companion*), March 13–17, 2023, Tokyo, Japan. ACM, New York, NY, USA, 7 pages. DOI: [10.1145/3594671.3594678](https://doi.org/10.1145/3594671.3594678)
+- Christoph Thiede, Willy Scheibel, Daniel Limberger, and Jürgen Döllner. 2022. [Augmenting Library Development by Mining Usage Data from Downstream Dependencies.](https://www.researchgate.net/publication/360231022_Augmenting_Library_Development_by_Mining_Usage_Data_from_Downstream_Dependencies) In *Proceedings of 17th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE 2022*). 221–232. DOI: [10.5220/0011093700003176](https://doi.org/10.5220/0011093700003176)
 - Christoph Thiede and Patrick Rein. 2021. *[Squeak by Example.](https://wiki.squeak.org/squeak/6546)* Vol. 5.3.1.
 
 ## Philosophy
