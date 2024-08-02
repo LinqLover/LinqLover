@@ -8,7 +8,7 @@ resume_url: https://docs.google.com/document/d/1MsDJSUBZddrLP2h0sFrvi5t6IWzlUWMu
 <a href="./assets/skills.svg"><img alt="Skills" src="./assets/skills.svg" align="right" height="200"></a>
 Hi, I‘m Christoph! I am a **master student in Computer Science and Software Engineering** and am interested in building and researching **innovative programming tools.** I have developed a novel **back-in-time debugger** for Squeak/Smalltalk, a downstream dependency analysis tool for VS Code, and several other prototypes. As a core developer of the **interactive programming system Squeak,** I explore and contribute to several areas such as its **code browsing tools** and its **regular expression engine.** In my spare time, I also play squash, jazz piano, and am owned by four cats.
 
-***Contact:** [Email](mailto:christoph.thiede@outlook.de) · [Twitter](https://twitter.com/LinqLover) · [LinkedIn](https://www.linkedin.com/in/christoph-thiede-20a0b8207/) · [GitHub](https://github.com/LinqLover)*
+***Contact:** [Email](mailto:christoph.thiede@outlook.de) · [LinkedIn](https://www.linkedin.com/in/christoph-thiede-20a0b8207/) · [ResearchGate](https://www.researchgate.net/profile/Christoph-Thiede) · [GitHub](https://github.com/LinqLover)*
 
 ## Experiences
 
@@ -17,7 +17,7 @@ Hi, I‘m Christoph! I am a **master student in Computer Science and Software En
   Hasso Plattner Institute, Software Architecture Group  
   2019-08 – present
   
-  As a student research assistant, I help maintain and extend [Squeak](#contributions-to-squeak), participate in [research projects](https://www.hpi.uni-potsdam.de/hirschfeld/) on programming and debugging tools, and have co-authored a [textbook](#publications) on Squeak.
+  As a student research assistant, I help maintain and extend [Squeak](#contributions-to-squeak), participate in and conduct my own [research projects](https://www.hpi.uni-potsdam.de/hirschfeld/) on programming and debugging tools, and have co-authored a [textbook](#publications) on Squeak.
   
   ***Skills:** Squeak/Smalltalk · OOP · Academic Writing*
   
@@ -44,9 +44,12 @@ Hi, I‘m Christoph! I am a **master student in Computer Science and Software En
 - ### *M.Sc. IT-Systems Engineering*
 
   Hasso Plattner Institute  
-  2021-04 – 2024-09 (expected)  
+  2021-04 – 2025-09 (expected)  
+  Current average grade: 1.0 (very good)
   
   Highlighted courses: Programming Experience · Reverse Engineering · Advanced Programming Tools · Parallel Programming and Heterogeneous Computing · Neurodesign · Global Design Thinking Workshop
+  
+  Master thesis (in progress): *The Semantic Workspace: Augmenting Exploratory Programming with Integrated Generative AI Tools*
   
 - ### B.Sc. IT-Systems Engineering
 
@@ -58,13 +61,29 @@ Hi, I‘m Christoph! I am a **master student in Computer Science and Software En
 
 ## Featured Projects
 
+- ### [SemanticSqueak](https://github.com/hpi-swa-lab/SemanticSqueak)
+
+  2023-08 – present
+  
+  <a href="./assets/SemanticSqueak-agent.png"><img alt="SemanticSqueak" src="./assets/SemanticSqueak-agent.png" height="200"></a>
+  
+  Augmenting exploratory programming by integrating conversational and autonomous agents into Squeak. Also implemented the [SemanticText](https://github.com/LinqLover/Squeak-SemanticText) framework for generative AI, semantic search, and an OpenAI API client. Submitted a scientific paper to the Onward! 2024 conference.
+
+- ### [trace4d](https://github.com/LinqLover/trace4d)
+
+  2023-04 – 2024-02
+  
+  <a href="./assets/trace4d.png"><img alt="trace4d" src="./assets/trace4d.png" height="200"></a>
+
+  Research prototype to visualize program behavior through interactive, animated 2.5D object maps using Three.js and D3.js. Presented in a scientific paper at the IVAPP 2024 conference.
+
 - ### [TraceDebugger](https://github.com/hpi-swa-lab/squeak-tracedebugger)
 
-  2021-10 – present
+  2021-10 – 2024-01
   
   <a href="./assets/TraceDebugger.png"><img alt="TraceDebugger" src="./assets/TraceDebugger.png" height="200"></a>
   
-  TraceDebugger is a **back-in-time debugger** for Squeak that aims to improve the navigation experience and immediacy during debugging. Among other things, I proposed a **novel state-centric perspective** and presented it in our [scientific paper](#publications) at the Programming Experience 2023 workshop.
+  TraceDebugger is a **back-in-time debugger** for Squeak that aims to improve the navigation experience and immediacy during debugging. Among other things, I proposed a **novel state-centric perspective** and presented it in our [scientific papers](#publications) at the Programming Experience 2023 workshop and the Onward! 2023 conference.
 
 - ### [Contributions to Squeak](https://squeak.org)
 
