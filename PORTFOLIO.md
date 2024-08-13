@@ -67,7 +67,7 @@ Hi, I‘m Christoph! I am a **master student in Computer Science and Software En
   
   <a href="./assets/SemanticSqueak-agent.png"><img alt="SemanticSqueak" src="./assets/SemanticSqueak-agent.png" height="200"></a>
   
-  Augmenting exploratory programming by integrating conversational and autonomous agents into Squeak. Also implemented the [SemanticText](https://github.com/LinqLover/Squeak-SemanticText) framework for generative AI, semantic search, and an OpenAI API client. Submitted a scientific paper to the Onward! 2024 conference.
+  Augmenting exploratory programming by integrating conversational and autonomous agents into Squeak. Also implemented the [SemanticText](https://github.com/LinqLover/Squeak-SemanticText) framework for generative AI, semantic search, and an OpenAI API client. A scientific paper will be presented at the Onward! 2024 conference.
 
 - ### [trace4d](https://github.com/LinqLover/trace4d)
 
@@ -134,6 +134,7 @@ Hi, I‘m Christoph! I am a **master student in Computer Science and Software En
 
 ## Publications
 
+- Christoph Thiede, Marcel Taeumel, Lukas Böhme, and Robert Hirschfeld. 2024. [Talking to Objects in Natural Language: Toward Semantic Tools for Exploratory Programming.](https://www.researchgate.net/publication/383085003_Talking_to_Objects_in_Natural_Language_Toward_Semantic_Tools_for_Exploratory_Programming) In *Proceedings of the 2024 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward! ’24)*, October 20–25, 2024, Pascadena, California. ACM, New York, NY, USA, 17 pages. To appear.
 - Christoph Thiede, Willy Scheibel, and Jürgen Döllner. 2024. [Bringing Objects to Life: Supporting Program Comprehension through Animated 2.5D Object Maps from Program Traces.](https://doi.org/10.5220/0012393900003660) In *Proceedings of the 15th International Conference on Information Visualization Theory and Applications (IVAPP 2024)*, February 27–29, Rome, Italy. SciTePress, 9 pages. DOI: [10.5220/0012393900003660](https://doi.org/10.5220/0012393900003660). [Preprint](https://linqlover.github.io/trace4d/paper-ivapp.pdf)/[Poster](https://linqlover.github.io/trace4d/poster-ivapp.pdf)/[Slides](https://linqlover.github.io/trace4d/slides-ivapp.pdf).
 - Christoph Thiede, Marcel Taeumel, and Robert Hirschfeld. 2023. [Time-Awareness in Object Exploration Tools: Toward In Situ Omniscient Debugging.](https://dl.acm.org/doi/10.1145/3622758.3622892) In *Proceedings of the 2023 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward! ’23)*, October 25–27, 2023, Cascais, Portugal. ACM, New York, NY, USA, 14 pages. DOI: [10.1145/3622758.3622892](https://doi.org/10.1145/3622758.3622892).
 - Christoph Thiede and Patrick Rein. 2023. *[Squeak by Example.](https://wiki.squeak.org/squeak/6546)* 6.0 Edition. ISBN: 978-1-4476-2948-1. [Paperback](https://www.lulu.com/shop/patrick-rein-and-christoph-thiede/squeak-by-example-60/paperback/product-8vr2j2.html)/[PDF](https://github.com/hpi-swa-lab/SqueakByExample-english/releases/tag/6.0).
