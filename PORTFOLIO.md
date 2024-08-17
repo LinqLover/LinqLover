@@ -1,36 +1,29 @@
 ---
 layout: portfolio
 title: Christoph Thiede
-description: Software Engineering student with a strong interest in building programming tools
+description: Enhancing developer productivity through novel programming tools and generative AI
 resume_url: https://linqlover.github.io/LinqLover/cv.pdf
 ---
 
 <a href="./assets/skills.svg"><img alt="Skills" src="./assets/skills.svg" align="right" height="200"></a>
-Hi, I‘m Christoph! I am a **master student in Computer Science and Software Engineering** and am interested in building and researching **innovative programming tools.** I have developed a novel **back-in-time debugger** for Squeak/Smalltalk, a downstream dependency analysis tool for VS Code, and several other prototypes. As a core developer of the **interactive programming system Squeak,** I explore and contribute to several areas such as its **code browsing tools** and its **regular expression engine.** In my spare time, I also play squash, jazz piano, and am owned by four cats.
+Hi, I‘m Christoph! I am a **research student in software engineering** with a strong passion for improving developer productivity. I have developed a [conversational programming agent using GPT-4](https://github.com/hpi-swa-lab/SemanticSqueak) and a [back-in-time debugger](https://github.com/hpi-swa-lab/squeak-tracedebugger) for Squeak/Smalltalk, a [VS Code extension to analyze downstream dependencies](https://github.com/LinqLover/downstream-repository-mining), and several other prototypes. As a core developer of Squeak, I [contribute](#contributions-to-squeak) to several areas such as its code browsing and debugging tools. In my spare time, I also play jazz piano, am a lot out in nature, and am owned by two cats.
 
 ***Contact:** [Email](mailto:christoph.thiede@outlook.de) · [LinkedIn](https://www.linkedin.com/in/christoph-thiede-20a0b8207/) · [ResearchGate](https://www.researchgate.net/profile/Christoph-Thiede) · [GitHub](https://github.com/LinqLover)*
 
 ## Experiences
 
-- ### Student Research Assistant
+- ### Student Research and Teaching Assistant
 
   Hasso Plattner Institute, Software Architecture Group  
   2019-08 – present
   
-  As a student research assistant, I help maintain and extend [Squeak](#contributions-to-squeak), participate in and conduct my own [research projects](https://www.hpi.uni-potsdam.de/hirschfeld/) on programming and debugging tools, and have co-authored a [textbook](#publications) on Squeak.
+  As a student research assistant, I maintain and extend the [Squeak IDE](#contributions-to-squeak), support and conduct my own [research projects](https://www.hpi.uni-potsdam.de/hirschfeld/) on programming and debugging tools, and have co-authored a [textbook](#publications) on Squeak.
   
-  ***Skills:** Squeak/Smalltalk · OOP · Academic Writing*
+  As a teaching assistant, I supervised a team of undergraduate students in a [software engineering project](https://hpi-de.translate.goog/studium/im-studium/lehrveranstaltungen/it-systems-engineering-ba/lehrveranstaltung/sose-22-3471-softwaretechnik-i.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp) and guided them through agile practices and technical issues.
   
-- ### Student Teaching Assistant
-
-  Hasso Plattner Institute, Software Architecture Group  
-  2022-04 – 2022-08
+  ***Skills:** Squeak/Smalltalk · OOP · Academic Writing · Agile Methods*
   
-  As a teaching assistant, I supervised a team of undergraduate students in a [software engineering project](https://hpi-de.translate.goog/studium/im-studium/lehrveranstaltungen/it-systems-engineering-ba/lehrveranstaltung/sose-22-3471-softwaretechnik-i.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp) and provided them guidance in mastering agile methods and technical issues.
-  
-  ***Skills:** Agile Methods · Teaching*
-  
-- ### Student Data Engineering Assistant
+- ### Student Software Engineering Assistant
   
   Museums of the Hasso Plattner Foundation  
   2020-08 – present
@@ -58,6 +51,8 @@ Hi, I‘m Christoph! I am a **master student in Computer Science and Software En
   Final grade: 1.5 (very good)
   
   Highlighted courses: Project Management · Programming of User Interfaces · Agile Software Development in Large Teams
+  
+  Bachelor thesis: *Exploring Museum-Related Social Media Posts Using Aspect-Based Sentiment Analysis*
 
 ## Featured Projects
 
@@ -146,7 +141,8 @@ Hi, I‘m Christoph! I am a **master student in Computer Science and Software En
 
 I am striving to base my work on the following values:
 
-- [**Agile:**](https://agilemanifesto.org/) Engineering should be fun, but rigid processes aren‘t! Just as slow feedback loops in your IDE can get you tired and risk-averse, delayed human feedback can also be deadly for any project. In my projects, I always seek to stay flexible and give and receive feedback as early as possible.
+- [**Agile:**](https://agilemanifesto.org/) Engineering should be fun, but rigid processes aren‘t! Just as slow feedback loops in your IDE can get you tired and risk-averse, delayed human feedback can also be deadly for any project. In my projects, I always seek to stay flexible and give and receive feedback as early as possible by developing incremental prototypes.
+- **Eat your own dogfood:** The best way to develop a product is to learn from your own experiences with it and make it better. For example, I have used the [TraceDebugger](#tracedebugger) to fix some bugs inside its own program tracer, which also led me realize the need for a new query mechanism in the debugger that I later implemented.
 - **Openness by default:** Black boxes are mean, whether on an implementational or organizational level. Transparent artifacts teach us, inspire us, and they can avoid annoying communication overhead. Whenever possible, I document and publish each of my projects.
-- **Talk to people, not to machines:** Code should always tell us a story and not be obfuscated by tiny optimizations. If the computer does not get your code fast, optimize the compiler, not your code. In 90% of all cases, readability matters more than performance. In the remaining 10%, I make sure to document my intentions.
+- **Talk to people, not to machines:** Code should always tell us a story and not be obfuscated by premature optimizations. In 90% of all cases, readability matters more than performance. In the remaining 10%, I make sure to document my intentions.
 - **[Kaizen](https://en.wikipedia.org/wiki/Kaizen) (改善, change for the better):** There is no perfect process, so reflection and improvement should be part of every process. In particular, I also apply kaizen to my own philosophy. :-)
