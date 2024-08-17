@@ -60,7 +60,7 @@ Hi, I‘m Christoph! I am a **research student in software engineering** with a 
 
   2023-08 – present
   
-  <a href="./assets/SemanticSqueak-agent.png"><img alt="SemanticSqueak" src="./assets/SemanticSqueak-agent.png" height="200"></a>
+  <a href="./assets/SemanticSqueak-agent.png"><img alt="SemanticSqueak" src="./assets/SemanticSqueak-agent.png" height="200"></a> <a href="./assets/exploratory-programming-agent-agent.png"><img alt="The exploratory programming agent framework" src="./assets/exploratory-programming-agent.png" height="200"></a>
   
   Augmenting exploratory programming by integrating conversational and autonomous agents into Squeak. Also implemented the [SemanticText](https://github.com/LinqLover/Squeak-SemanticText) framework for generative AI, semantic search, and an OpenAI API client. A scientific paper will be presented at the Onward! 2024 conference.
 
@@ -76,7 +76,7 @@ Hi, I‘m Christoph! I am a **research student in software engineering** with a 
 
   2021-10 – 2024-01
   
-  <a href="./assets/TraceDebugger.png"><img alt="TraceDebugger" src="./assets/TraceDebugger.png" height="200"></a>
+  <a href="./assets/TraceDebugger.png"><img alt="TraceDebugger" src="./assets/TraceDebugger.png" height="200"></a> <a href="./assets/HistoryExplorer.png"><img alt="History explorer" src="./assets/HistoryExplorer.png" height="200"></a>
   
   TraceDebugger is a **back-in-time debugger** for Squeak that aims to improve the navigation experience and immediacy during debugging. Among other things, I proposed a **novel state-centric perspective** and presented it in our [scientific papers](#publications) at the Programming Experience 2023 workshop and the Onward! 2023 conference.
 
@@ -106,7 +106,7 @@ Hi, I‘m Christoph! I am a **research student in software engineering** with a 
 
   2021-05 – present
   
-  <a href="./assets/SimulationMethodFinder.png"><img alt="Simulation Method Finder" src="./assets/SimulationMethodFinder.png" height="150"></a><a href="./assets/SimulationProtocolExplorer.png"><img alt="Simulation Protocol Explorer" src="./assets/SimulationProtocolExplorer.png" height="150"></a>
+  <a href="./assets/SimulationMethodFinder.png"><img alt="Simulation Method Finder" src="./assets/SimulationMethodFinder.png" height="150"></a> <a href="./assets/SimulationProtocolExplorer.png"><img alt="Simulation Protocol Explorer" src="./assets/SimulationProtocolExplorer.png" height="150"></a>
   
   SimulationStudio exploits the flexible nature of Squeak‘s call stack model and provides a **framework for fine-grained control of the execution** through code simulation. Building on this, SimulationStudio offers a **sandbox for isolated execution** and multiple tools for the **behavior-centric exploration** of classes and objects.
 
