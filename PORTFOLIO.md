@@ -80,7 +80,7 @@ Hi, I‘m Christoph! I am a **research student in software engineering** with a 
   
   TraceDebugger is a **back-in-time debugger** for Squeak that aims to improve the navigation experience and immediacy during debugging. Among other things, I proposed a **novel state-centric perspective** and presented it in our [scientific papers](#publications) at the Programming Experience 2023 workshop and the Onward! 2023 conference.
 
-- ### [Contributions to Squeak](https://squeak.org)
+- ### [Contributions to Squeak](https://html-preview.github.io/?url=https://github.com/LinqLover/LinqLover/blob/artifacts/squeak-ct-contribs-outline-formatted.html)
 
   2019-05 – present
   
