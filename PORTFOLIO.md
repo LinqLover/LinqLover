@@ -62,7 +62,7 @@ Hi, I‘m Christoph! I am a **research student in software engineering** with a 
   
   <a href="./assets/SemanticSqueak-agent.png"><img alt="SemanticSqueak" src="./assets/SemanticSqueak-agent.png" height="200"></a> <a href="./assets/exploratory-programming-agent-agent.png"><img alt="The exploratory programming agent framework" src="./assets/exploratory-programming-agent.png" height="200"></a>
   
-  Augmenting exploratory programming by integrating conversational and autonomous agents into Squeak. Also implemented the [SemanticText](https://github.com/LinqLover/Squeak-SemanticText) framework for generative AI, semantic search, and an OpenAI API client. A scientific paper will be presented at the Onward! 2024 conference.
+  Augmenting exploratory programming by integrating conversational and autonomous agents into Squeak. Also implemented the [SemanticText](https://github.com/LinqLover/Squeak-SemanticText) framework for generative AI, semantic search, and an OpenAI API client. A scientific paper was presented at the Onward! 2024 conference.
 
 - ### [trace4d](https://github.com/LinqLover/trace4d)
 
