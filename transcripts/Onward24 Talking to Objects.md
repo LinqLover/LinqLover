@@ -1,3 +1,8 @@
+---
+title: Talking to Objects in Natural Language
+description: Toward Semantic Tools for Exploratory Programming
+---
+
 # Talking to Objects in Natural Language: Toward Semantic Tools for Exploratory Programming
 
 *This is a transcript of my [talk](https://2024.splashcon.org/details/splash-2024-Onward-papers/6/Talking-to-Objects-in-Natural-Language-Toward-Semantic-Tools-for-Exploratory-Program) for the Onward! 2024 conference, polished by AI (ChatGPT) and revised manually. For more details, please check out the [slides](../slides/Onward24%20Talking%20to%20Objects.pdf) and the [full paper](https://doi.org/10.1145/3689492.3690049).*
