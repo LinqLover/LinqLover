@@ -17,4 +17,4 @@ After the talk, there will be time for any questions and joint experiments.
 
 ---
 
-Meeting link: <https://www.meetup.com/de-DE/ukstug/events/302453224>
+Meeting link: <https://www.meetup.com/ukstug/events/302453224>

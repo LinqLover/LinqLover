@@ -140,6 +140,7 @@ Hi, I‘m Christoph! I am a **research student in software engineering** with a 
 
 ## Talks
 
+- [SemanticText: Improving Exploratory Programming in Squeak with Generative AI.](https://linqlover.github.io/LinqLover/docs/2024-11-27_UKSTUG_SemanticText.html) On [*UKSTUG Online Meeting: Christoph Thiede on SemanticText and Guille Amaral on Webside*](https://www.meetup.com/de-DE/ukstug/events/302453224/), November 27th, 2024. UK Smalltalk User Group, online.
 - Wie kann dir eine KI beim Explorieren der Objekte zur Seite stehen? (How Can AI Support You While Exploring Objects?) On [*Squeak Meeting 2024*](https://squeak.de/news/2024/09/30/squeak_treffen/), November 2, 2024. Squeak e.V., Potsdam, Germany.
 - Wie kann eine KI die Squeak-Mailingliste zusammenfassen? (How Can AI Summarize the Squeak Mailing List?) On [*Squeak Meeting 2023*](https://squeak.de/news/2023/10/02/squeak_treffen/), November 4, 2023. Squeak e.V., Potsdam, Germany.
 - [Zurück in die Zukunft: Back-in-time-Debugging in Squeak](https://linqlover.github.io/LinqLover/slides/SqueakEv22%20TraceDebugger-de.pdf) (Back to the Future: Back-in-Time Debugging in Squeak). On [*Squeak Meeting 2022*](https://squeak.de/news/2022/10/21/squeak_treffen/), November 19, 2022. Squeak e.V., Potsdam, Germany.
