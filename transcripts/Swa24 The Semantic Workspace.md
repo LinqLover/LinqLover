@@ -13,7 +13,7 @@ Exploratory programming involves understanding and solving problems while simult
 
 In an object-oriented context, imagine having a programmer and a system composed of various objects. The programmer asks questions about these objects—for example, “What does this object represent?”, “How can I invoke a certain feature?”, or “Why is something not working as expected?” To answer these questions, the programmer interacts with the running system, inspects objects, performs code experiments, and uses various tools such as inspectors, browsers, debuggers, or workspaces.
 
-![alt text](./Swa24%20The%20Semantic%20Workspace.assets/intro/questions.png)
+![During exploratory programming, programmers ask several questions about objects in the system.](./Swa24%20The%20Semantic%20Workspace.assets/intro/questions.png)
 
 ### Challenges in the Current Workflow
 
@@ -36,7 +36,7 @@ However, these tools are currently geared almost exclusively toward static sourc
 
 Imagine having an inspector not just as a static tool to view variables and run print statements, but as a tool where you can directly pose conceptual questions in natural language. The system would autonomously conduct the necessary investigations to answer these questions at an appropriate level of abstraction.
 
-![alt text](./Swa24%20The%20Semantic%20Workspace.assets/intro/vision.png)
+![Our vision of augmented exploratory programming: Semantic tools allow programmers to communicate conceptual questions directly to the system.](./Swa24%20The%20Semantic%20Workspace.assets/intro/vision.png)
 
 This brings us to the central research question: **How can we augment the exploratory programming workflow using semantic technologies?** The approach is to integrate semantic interfaces into an exploratory programming environment. Programmers can then delegate parts of their work to intelligent agents and collaborate with them. The hypothesis is that this can simplify and enrich the exploratory workflow.
 
@@ -44,13 +44,13 @@ This brings us to the central research question: **How can we augment the explor
 
 Exploratory programming is often described in the literature as a process in which programmers understand and solve problems simultaneously and iteratively. Another definition characterizes it as conducting extensive “conversations” with the system, performing many small experiments. From these descriptions, I derived a model of an iterative research process: like researchers, we start with a question, we want an answer, and along the way we must plan, experiment, evaluate results, and iterate if necessary.
 
-![alt text](./Swa24%20The%20Semantic%20Workspace.assets/background/process-simple.png)
+![A simple instance of an exploratory research process.](./Swa24%20The%20Semantic%20Workspace.assets/background/process-simple.png)
 
 A concrete example might be: “When was an order created in a shopping system?” Answering this could involve interacting with various tools such as inspectors and print statements to extract the necessary information from the system.
 
 Frequently, the questions we pose are so abstract that no direct tool can provide an immediate answer. Consider the question, “How can I build a suitable UI for this domain?” This leads to further queries like “What capabilities does the UI framework offer?” or “How can I extract the required information from the domain?” The process thus becomes hierarchical and nested, eventually reaching simpler technical questions that existing tools can handle.
 
-![alt text](./Swa24%20The%20Semantic%20Workspace.assets/background/process-complex.png)
+![A complex, hierarchical instance of an exploratory research process.](./Swa24%20The%20Semantic%20Workspace.assets/background/process-complex.png)
 
 ### Limitations of Today’s Tools
 
@@ -64,13 +64,13 @@ On the other hand, we have *semantic technologies* that go beyond syntactic anal
 
 These technologies enable us to move beyond purely syntactic analysis, to ask and answer genuinely semantic, content-based questions. Here lies the opportunity of our work: by integrating semantic technologies into exploratory programming tools, we can enable them to understand the abstract questions and context of programmers and support programmers in higher abstraction levels of there research process.
 
-![alt text](./Swa24%20The%20Semantic%20Workspace.assets/background/opportunity.png)
+![Opportunity for Augmented Exploratory Programming: By integrating semantic technologies into programming tools, we understand the context and questions of programmers and support them at more conceptual steps in their research process.](./Swa24%20The%20Semantic%20Workspace.assets/background/opportunity.png)
 
 ## The Concept of Augmented Exploratory Programming
 
 In my work, I call this approach **augmented exploratory programming.** The basic idea: we still have the classic exploratory process—question, plan, experiment, results, and eventually an answer—but now we envision a *semantic exploratory programming system* that provides conceptual assistance as well. The programmer can exchange not only concrete experiments but also conceptual artifacts with the system.
 
-![alt text](./Swa24%20The%20Semantic%20Workspace.assets/approach/augmented-exploratory-programming.png)
+![Augmented Exploratory Programming: A semantic exploratory programming systems exchanges conceptual artifacts with programmers and conducts parts of the research process on its own.](./Swa24%20The%20Semantic%20Workspace.assets/approach/augmented-exploratory-programming.png)
 
 For example, the programmer might pose abstract questions or share plans, and the system can respond with appropriate experiments or answers. Internally, the system executes parts of the exploratory process on its own to understand the programmer’s steps, continue them, and continuously provide assistance.
 
@@ -80,17 +80,17 @@ From this idea, I developed the conceptual framework of the **Semantic Workspace
 
 1. **Semantic Suggestions:** The system observes the programmer’s actions—what experiments they run, which objects they inspect, which methods they invoke—and suggests further meaningful steps or experiments. Since the system has some understanding of the domain, it can offer more targeted help than a purely syntactic tool.
 
-   ![alt text](./Swa24%20The%20Semantic%20Workspace.assets/approach/suggestions.png)
+   ![Semantic Suggestions](./Swa24%20The%20Semantic%20Workspace.assets/approach/suggestions.png)
 2. **Semantic Completions:** Here the system goes further. While the programmer begins writing scripts in a workspace or formulating plans, the system independently performs experiments in the background, summarizes the results, and offers context-aware suggestions on how to proceed. Human and machine intelligence collaborate at an earlier stage of the thought process.
 
-   ![alt text](./Swa24%20The%20Semantic%20Workspace.assets/approach/completions.png)
+   ![Semantic Completions](./Swa24%20The%20Semantic%20Workspace.assets/approach/completions.png)
 3. **Semantic Conversations:** This is the most advanced approach and the main focus of this article. The programmer can directly talk to an object in the system in natural language by asking questions such as “When was this order created?” or “How can I extend this UI element for my domain?” The system autonomously conducts the necessary research: it inspects objects, searches source code, executes scripts, evaluates results, and derives a semantically meaningful answer, which it presents to the programmer. The programmer no longer has to manually click through various tools to gather information, as the system provides the required context and details at a higher level of abstraction.
 
 ### Implementing the Idea: The Semantic Exploration Kernel
 
 To realize these ideas, I built a prototype called the **Semantic Exploration Kernel** for [Squeak/Smalltalk](https://squeak.org/). It is based on the traditional exploratory programming environment (Squeak) and uses my **[SemanticText](https://github.com/LinqLover/Squeak-SemanticText)** framework to access semantic technologies like GPT-4o.
 
-![alt](./Swa24%20The%20Semantic%20Workspace.assets/approach/architecture.png)
+![Architecture of the Semantic Exploration Kernel](./Swa24%20The%20Semantic%20Workspace.assets/approach/architecture.png)
 
 The Semantic Exploration Kernel has two main components:
 
@@ -99,7 +99,7 @@ The Semantic Exploration Kernel has two main components:
 
 To enable semantic object interfaces, the exploratory programming agent is placed between the programmer and the actual objects in the system. It receives **semantic questions** (e.g., contextual and in natural language) from the programmer, conducts the entire research process internally, and finally returns a semantic answer. Internally, it explores the objects by using existing tools like inspectors, browsers, or print statements. A long prompt and various policies instruct GPT-4o to act as an “exploratory programming assistant.” Access to objects is provided through a facade of existing tools, exposed to the LLM as callable functions.
 
-![alt text](./Swa24%20The%20Semantic%20Workspace.assets/approach/exploratory-programming-agent.png)
+![Semantic Object Interfaces using the Exploratory Programming Agent](./Swa24%20The%20Semantic%20Workspace.assets/approach/exploratory-programming-agent.png)
 
 ### Integrating Semantic Object Interfaces
 
@@ -126,19 +126,19 @@ Another approach extends scripting: normally, writing print statements requires 
 
 In our example, we are having an `Order` object in a shopping system and want to know when this order was created. Typically, you would inspect instance variables in the inspector, eventually find a relevant timestamp, convert it into a readable date, and possibly search for relevant methods or classes. This is time-consuming and distracts from the main question.
 
-![alt](./Swa24%20The%20Semantic%20Workspace.assets/demo/order-manual.webm)
+<video alt="Finding out when an order was created using traditional exploratory programming tools" src="./Swa24%20The%20Semantic%20Workspace.assets/demo/order-manual.webm"></video>
 
 With the exploratory programming agent, you simply ask in natural language: “When was this order created?” The agent autonomously performs the necessary steps and experiments, then presents the determined date in natural language. You skip all the manual intermediate steps and remain in your mental flow.
 
-![alt](./Swa24%20The%20Semantic%20Workspace.assets/demo/order-semantic.webm)
+<video alt="Finding out when an order was created by asking a semantic question in an inspector" src="./Swa24%20The%20Semantic%20Workspace.assets/demo/order-semantic.webm"></video>
 
 We can also use the exploratory programming agent for other exploratory tasks. For example, we use it to explore formatted texts in Squeak, understand how they are modelled internally, and how their formatting can be changed through its interface.
 
-![alt](./Swa24%20The%20Semantic%20Workspace.assets/demo/text.png)
+![Exploring a formatted Text in Squeak using the exploratory programming agent](./Swa24%20The%20Semantic%20Workspace.assets/demo/text.png)
 
 Beyond domain objects, we can use the exploratory programming agents to gain semantic access to existing tools in the system. Since everything is an object, we can also talk to packages, classes, methods; processes and call frames; AST nodes in a method; and so on. This allows us to build different semantic tools with low effort. One example is a **semantic debugger** where you can ask questions about certain variables in the call stack (“Where does the value of this variable come from?”) instead of manually navigating the entire call stack.
 
-![alt](./Swa24%20The%20Semantic%20Workspace.assets/demo/debugger.png)
+![Asking natural-language questions about variables in a semantic debugger](./Swa24%20The%20Semantic%20Workspace.assets/demo/debugger.png)
 
 ## Discussion: Current Capabilities and User Experience
 
