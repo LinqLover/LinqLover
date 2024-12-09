@@ -126,11 +126,11 @@ Another approach extends scripting: normally, writing print statements requires 
 
 In our example, we are having an `Order` object in a shopping system and want to know when this order was created. Typically, you would inspect instance variables in the inspector, eventually find a relevant timestamp, convert it into a readable date, and possibly search for relevant methods or classes. This is time-consuming and distracts from the main question.
 
-<video alt="Finding out when an order was created using traditional exploratory programming tools" src="./Swa24%20The%20Semantic%20Workspace.assets/demo/order-manual.webm"></video>
+<video alt="Finding out when an order was created using traditional exploratory programming tools" controls width="100%" src="./Swa24%20The%20Semantic%20Workspace.assets/demo/order-manual.webm"></video>
 
 With the exploratory programming agent, you simply ask in natural language: “When was this order created?” The agent autonomously performs the necessary steps and experiments, then presents the determined date in natural language. You skip all the manual intermediate steps and remain in your mental flow.
 
-<video alt="Finding out when an order was created by asking a semantic question in an inspector" src="./Swa24%20The%20Semantic%20Workspace.assets/demo/order-semantic.webm"></video>
+<video alt="Finding out when an order was created by asking a semantic question in an inspector" controls width="100%" src="./Swa24%20The%20Semantic%20Workspace.assets/demo/order-semantic.webm"></video>
 
 We can also use the exploratory programming agent for other exploratory tasks. For example, we use it to explore formatted texts in Squeak, understand how they are modelled internally, and how their formatting can be changed through its interface.
 
