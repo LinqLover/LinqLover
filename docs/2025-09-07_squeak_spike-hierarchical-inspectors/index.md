@@ -97,6 +97,12 @@ Use the more profound technical foundation of the inspector and extend it with a
 - More chaotic UI
   - ➡️ Display values in secondary style (greyed out/smaller)? Not yet supported in `LazyListMorph`s.
 
+## Related Work
+
+- [Marcel Taeumel: [squeak-dev] Explorers in Debuggers](https://lists.squeakfoundation.org/archives/list/squeak-dev@lists.squeakfoundation.org/thread/Y2WPPDJ7VP7LEOJ4ATFTAUGCHEBQH66P) displays two regular explorers in a debugger with expression panes below the trees and removes the value panes. This gives more horizontal space to the trees but (i) offers no multi-line view of a variable value and (ii) requires more vertical space in total or shrinks the height of the remaining do-it panes a lot.
+
+  [![Marcel Taeumel: Explorers in Debuggers](https://lists.squeakfoundation.org/archives/list/squeak-dev@lists.squeakfoundation.org/message/Y2WPPDJ7VP7LEOJ4ATFTAUGCHEBQH66P/attachment/5/image.png)](https://lists.squeakfoundation.org/archives/list/squeak-dev@lists.squeakfoundation.org/thread/Y2WPPDJ7VP7LEOJ4ATFTAUGCHEBQH66P)
+
 ## Conclusion and Future Work
 
 - Hierarchical inspectors as a standalone tool look promising. Will do further testing and try to adapt my own muscle memory.
