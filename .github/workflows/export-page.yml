@@ -22,6 +22,14 @@ jobs:
           run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Unpack Pages artifact
+        run: |
+          cd site
+          tar -xf artifact.tar
+          rm artifact.tar
+          # serve exactly as built, no Jekyll on target
+          touch .nojekyll
+
       - name: Publish to LinqLover.github.io
         run: |
           cd site
