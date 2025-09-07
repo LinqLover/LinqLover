@@ -13,7 +13,7 @@ After the talk, there will be time for any questions and joint experiments.
 
 ---
 
-[Christoph Thiede](https://linqlover.github.io/LinqLover/PORTFOLIO.html) is a member of HPI’s Software Architecture Group with a strong interest in developer productivity and tools. As a core developer of Squeak/Smalltalk, he enjoys delving deep into its ecosystem and contributing to everything from its simulation machinery to libraries and debugging tools. His master’s thesis investigates novel approaches to leveraging generative AI for augmenting exploratory programming.
+[Christoph Thiede](https://linqlover.github.io/PORTFOLIO.html) is a member of HPI’s Software Architecture Group with a strong interest in developer productivity and tools. As a core developer of Squeak/Smalltalk, he enjoys delving deep into its ecosystem and contributing to everything from its simulation machinery to libraries and debugging tools. His master’s thesis investigates novel approaches to leveraging generative AI for augmenting exploratory programming.
 
 ---
 
