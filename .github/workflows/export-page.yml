@@ -38,5 +38,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Export built site from ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${{ github.event.workflow_run.id }}"
-          git branch -M main
-          git push --force "https://${{ secrets.PUSH_TOKEN }}@github.com/LinqLover/LinqLover.github.io.git" main
+          git branch -M github-pages
+          git push --force "https://${{ secrets.PUSH_TOKEN }}@github.com/LinqLover/LinqLover.github.io.git" github-pages
