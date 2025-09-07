@@ -31,4 +31,4 @@ jobs:
           git add .
           git commit -m "Export built site from ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${{ github.event.workflow_run.id }}"
           git branch -M main
-          git push --force "https://${{ secrets.PUSH_TOKEN }}@github.com/LinqLover/LinqLover.github.io.git" master
+          git push --force "https://${{ secrets.PUSH_TOKEN }}@github.com/LinqLover/LinqLover.github.io.git" main
