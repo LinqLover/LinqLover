@@ -2,7 +2,7 @@ name: Export GitHub Pages build to user site
 
 on:
   workflow_run:
-    workflows: ["pages build and deployment"]
+    workflows: ["pages-build-deployment"]
     types: [completed]
 
 permissions:
