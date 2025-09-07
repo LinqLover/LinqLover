@@ -5,6 +5,14 @@
         },
         {
             "pattern": "^https://www.researchgate.net"
+        },
+        {
+            "comment": "acm does acm things",
+            "pattern": "^https://doi.org/10.1145/"
+        },
+        {
+
+            "pattern": "^https://dl.acm.org/doi/10.1145/"
         }
     ]
 }
