@@ -1,5 +1,5 @@
 ---
-title: "Spike: Hierarchical Inspectors, Explorers in Debuggers"
+title: "Hierarchical Inspectors, Explorers in Debuggers"
 description: A Quick UX Spike
 ---
 
