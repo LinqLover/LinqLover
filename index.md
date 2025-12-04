@@ -37,12 +37,12 @@ Hi, I‘m Christoph! I am a **research student in software engineering** with a 
 - ### *M.Sc. IT-Systems Engineering*
 
   Hasso Plattner Institute  
-  2021-04 – 2025-09 (expected)  
-  Current average grade: 1.0 (very good)
+  2021-04 – 2025-10
+  Final grade: 1.0 (very good)
   
   Highlighted courses: Programming Experience · Reverse Engineering · Advanced Programming Tools · Parallel Programming and Heterogeneous Computing · Neurodesign · Global Design Thinking Workshop
   
-  Master thesis (in progress): *The Semantic Workspace: Augmenting Exploratory Programming with Integrated Generative AI Tools*
+  Master thesis: *The Semantic Workspace: Augmenting Exploratory Programming with Integrated Generative AI Tools*
   
 - ### B.Sc. IT-Systems Engineering
 
@@ -129,8 +129,9 @@ Hi, I‘m Christoph! I am a **research student in software engineering** with a 
 
 ## Publications
 
+- Lukas Böhme, Christoph Thiede, Toni Mattis, Tom Beckmann, Jens Lincke, and Robert Hirschfeld. 2025. [Toward Bridging the Tool Gap: Equipping Large Language Models with Tools to Answer Programmers' Questions.](https://www.hpi.uni-potsdam.de/hirschfeld/publications/media/BoehmeThiedeMattisBeckmannLinckeHirschfeld_2025_TowardBridgingTheToolGapEquippingLargeLanguageModelsWithToolsToAnswerProgrammersQuestions_AuthorsVersion.pdf) In *Proceedings of the Workshop on Programming Abstractions and Interactive Notations, Tools, and Environments (PAINT)*, companion volume to the *Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH)*, October 12-18, 2025, Singapore. ACM, 10 pages. DOI: [10.1145/3759534.3762682](https://dl.acm.org/doi/10.1145/3759534.3762682)
 - Christoph Thiede. 2024. [The Semantic Workspace: Augmenting Exploratory Programming with Integrated Generative AI Tools.](https://github.com/LinqLover/semexp-thesis/releases/download/submission/semexp-thesis.pdf) Master’s Thesis. Hasso Plattner Institute, 161 pages. [Defense slides](./slides/Swa24%20The%20Semantic%20Workspace.pdf)/[defense blog post](https://linqlover.github.io/transcripts/Swa24%20The%20Semantic%20Workspace.html).
-- Christoph Thiede, Marcel Taeumel, Lukas Böhme, and Robert Hirschfeld. 2024. [Talking to Objects in Natural Language: Toward Semantic Tools for Exploratory Programming.](https://dl.acm.org/doi/10.1145/3689492.3690049) In *Proceedings of the 2024 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward! ’24)*, October 20–25, 2024, Pascadena, California. ACM, New York, NY, USA, 17 pages. DOI: [10.1145/3689492.3690049](https://dl.acm.org/doi/10.1145/3689492.3690049). [Slides](./slides/Onward24%20Talking%20to%20Objects.pdf)/[Poster](./posters/Onward24%20Talking%20to%20Objects.pdf)/[Transcript](https://linqlover.github.io/transcripts/Onward24%20Talking%20to%20Objects.html).
+- Christoph Thiede, Marcel Taeumel, Lukas Böhme, and Robert Hirschfeld. 2024. [Talking to Objects in Natural Language: Toward Semantic Tools for Exploratory Programming.](https://dl.acm.org/doi/10.1145/3689492.3690049) In *Proceedings of the 2024 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward! ’24)*, October 20–25, 2024, Pasadena, California. ACM, New York, NY, USA, 17 pages. DOI: [10.1145/3689492.3690049](https://dl.acm.org/doi/10.1145/3689492.3690049). [Slides](./slides/Onward24%20Talking%20to%20Objects.pdf)/[Poster](./posters/Onward24%20Talking%20to%20Objects.pdf)/[Transcript](https://linqlover.github.io/transcripts/Onward24%20Talking%20to%20Objects.html).
 - Christoph Thiede, Willy Scheibel, and Jürgen Döllner. 2024. [Bringing Objects to Life: Supporting Program Comprehension through Animated 2.5D Object Maps from Program Traces.](https://doi.org/10.5220/0012393900003660) In *Proceedings of the 15th International Conference on Information Visualization Theory and Applications (IVAPP 2024)*, February 27–29, Rome, Italy. SciTePress, 9 pages. DOI: [10.5220/0012393900003660](https://doi.org/10.5220/0012393900003660). [Preprint](https://linqlover.github.io/trace4d/paper-ivapp.pdf)/[Poster](https://linqlover.github.io/trace4d/poster-ivapp.pdf)/[Slides](https://linqlover.github.io/trace4d/slides-ivapp.pdf).
 - Christoph Thiede, Marcel Taeumel, and Robert Hirschfeld. 2023. [Time-Awareness in Object Exploration Tools: Toward In Situ Omniscient Debugging.](https://dl.acm.org/doi/10.1145/3622758.3622892) In *Proceedings of the 2023 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward! ’23)*, October 25–27, 2023, Cascais, Portugal. ACM, New York, NY, USA, 14 pages. DOI: [10.1145/3622758.3622892](https://doi.org/10.1145/3622758.3622892). [Slides](https://linqlover.github.io/slides/Onward23%20Time%20Awareness.pdf).
 - Christoph Thiede and Patrick Rein. 2023. *[Squeak by Example.](https://wiki.squeak.org/squeak/6546)* 6.0 Edition. ISBN: 978-1-4476-2948-1. [Paperback](https://www.lulu.com/shop/patrick-rein-and-christoph-thiede/squeak-by-example-60/paperback/product-8vr2j2.html)/[PDF](https://github.com/hpi-swa-lab/SqueakByExample-english/releases/tag/6.0).
