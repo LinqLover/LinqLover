@@ -25,7 +25,7 @@ Hi, I‘m Christoph! I am a **research student in software engineering** with a 
 
 - ### Software Engineering Intern
   
-  JetBrains
+  JetBrains  
   2025-01 – 2025-05
   
   At JetBrains, I researched and prototyped approaches for implementing reliable, reusable test runners across multiple programming languages and frameworks (Python, Gradle, Node.js), and integrated the selected solution into the Fleet platform.
