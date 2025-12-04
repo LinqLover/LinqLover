@@ -67,7 +67,7 @@ Hi, I‘m Christoph! I am a **research student in software engineering** with a 
 
 - ### [SemanticSqueak](https://github.com/hpi-swa-lab/SemanticSqueak)
 
-  2023-08 – present
+  2023-08 – 2024-11
   
   <a href="./assets/SemanticSqueak-agent.png"><img alt="SemanticSqueak" src="./assets/SemanticSqueak-agent.png" height="200"></a> <a href="./assets/exploratory-programming-agent-agent.png"><img alt="The exploratory programming agent framework" src="./assets/exploratory-programming-agent.png" height="200"></a>
   
