@@ -22,11 +22,20 @@ Hi, I‘m Christoph! I am a **research student in software engineering** with a 
   As a teaching assistant, I supervised a team of undergraduate students in a [software engineering project](https://hpi-de.translate.goog/studium/im-studium/lehrveranstaltungen/it-systems-engineering-ba/lehrveranstaltung/sose-22-3471-softwaretechnik-i.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp) and guided them through agile practices and technical issues.
   
   ***Skills:** Squeak/Smalltalk · OOP · Academic Writing · Agile Methods*
+
+- ### Software Engineering Intern
   
+  JetBrains
+  2025-01 – 2025-05
+  
+  At JetBrains, I researched and prototyped approaches for implementing reliable, reusable test runners across multiple programming languages and frameworks (Python, Gradle, Node.js), and integrated the selected solution into the Fleet platform.
+  
+  ***Skills:** Java/Kotlin · Python · TypeScript · Gradle*
+
 - ### Student Software Engineering Assistant
   
   Museums of the Hasso Plattner Foundation  
-  2020-08 – present
+  2020-08 – 2024-07
   
   At the HPF, I am responsible for maintaining and extending [Barberini Analytics](https://github.com/Museum-Barberini/Barberini-Analytics), a data mining and analytics platform that provides management and PR teams with business insights from data sources such as social media, review platforms, and the internal customer system.
   
