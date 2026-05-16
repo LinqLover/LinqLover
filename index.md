@@ -1,5 +1,4 @@
 ---
-layout: portfolio
 title: Christoph Thiede
 ---
 
