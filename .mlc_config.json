@@ -15,7 +15,8 @@
             "pattern": "^https://dl.acm.org/doi/(pdf/)?10.1145/"
         },
         {
-            "pattern": "^https://lists.squeakfoundation.org/archives/search"
+            "comment": "bots have no chance anywhere :(",
+            "pattern": "^https://lists.squeakfoundation.org/archives/"
         },
         {
             "pattern": "^https://scholar.google.com/citations\\?user="
