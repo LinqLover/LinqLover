@@ -14,9 +14,53 @@
 <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
+    {% if page.squeak-eyes-pos %}
+        {% include eyes.html mode="hover-map" %}
+    {% endif %}
+
     <header class="page-header" role="banner">
         <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         {% if page.description %}<h2 class="project-tagline">{{ page.description }}</h2>{% endif %}
+        {% if page.squeak-logo %}
+            <style>
+                .squeak-logo-wrap {
+                    position: absolute;
+                    top: 30px;
+                    right: 20px;
+                    height: 100px;
+                    display: inline-block;
+                    pointer-events: auto;
+                    transform: rotate(7deg); /* rotate wrapper so eyes overlay follows */
+                    transform-origin: top right; /* keep top-right anchored */
+                }
+                .squeak-logo-wrap .squeak-logo {
+                    height: 100%;
+                    display: block;
+                }
+                /* Mobile (Centered below h1) */
+                @media (max-width: 673px) {
+                    .squeak-logo-wrap {
+                        position: relative;
+                        display: table;
+                        width: auto;
+                        margin-left: auto;
+                        margin-right: auto;
+                        right: 0px;
+                        margin-top: -20px;
+                        margin-bottom: 5px;
+                        height: 100px;
+                        transform: none;
+                    }
+                    .squeak-logo-wrap .squeak-logo { transform: none; }
+                }
+            </style>
+            <div class="squeak-logo-wrap">
+                <img class="squeak-logo" src="{{ page.squeak-logo }}" alt="Squeak Logo">
+                {% if page.squeak-eyes-pos %}
+                    {% include eyes.html %}
+                {% endif %}
+            </div>
+        {% endif %}
         {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a> {% endif %}
         {% if page.resume_url %}<a href="{{ page.resume_url }}" class="btn">Resume</a>{% endif %} {% if site.show_downloads %}

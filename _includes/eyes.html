@@ -1,0 +1,180 @@
+{% comment %}
+CSS-only eyes overlay.
+Reads `page.squeak-eyes-pos` which should be one of:
+    - "x@y,x@y[,scale]" (legacy, uniform scale)
+    - "x@y@w@h@pw@ph,x@y@w@h@pw@ph[,scale]" where `w` and `h` are relative multipliers for the base eye size and `pw`/`ph` are pupil-size multipliers relative to the eye
+If per-eye `w`/`h`/`pw`/`ph` are omitted the optional trailing `scale` (third comma-separated value) is used as a fallback for `w`/`h`, and the pupil defaults to ~0.36 of the eye.
+Renders a viewport-sized sensor grid so the pupils can react anywhere on the page, plus a separate eye layer anchored to the logo wrapper.
+{% endcomment %}
+
+{% assign pairs = page.squeak-eyes-pos | split: ',' %}
+{% assign leftpair = pairs[0] | strip %}
+{% assign rightpair = pairs[1] | strip %}
+{% assign left = leftpair | split: '@' %}
+{% assign right = rightpair | split: '@' %}
+{% assign eyescale = pairs[2] | strip | default: 1 %}
+
+{% comment %} Determine per-eye width/height multipliers. If not provided fall back to `eyescale`. {% endcomment %}
+{% assign left_w = left[2] | strip %}
+{% assign left_h = left[3] | strip %}
+{% if left_w == nil or left_w == '' %}{% assign left_w = eyescale %}{% endif %}
+{% if left_h == nil or left_h == '' %}{% assign left_h = left_w %}{% endif %}
+
+{% assign right_w = right[2] | strip %}
+{% assign right_h = right[3] | strip %}
+{% if right_w == nil or right_w == '' %}{% assign right_w = eyescale %}{% endif %}
+{% if right_h == nil or right_h == '' %}{% assign right_h = right_w %}{% endif %}
+
+{% comment %} Pupil size multipliers (relative to the eye). Default ~0.36 if not provided. {% endcomment %}
+{% assign left_pw = left[4] | strip %}
+{% assign left_ph = left[5] | strip %}
+{% if left_pw == nil or left_pw == '' %}{% assign left_pw = '0.36' %}{% endif %}
+{% if left_ph == nil or left_ph == '' %}{% assign left_ph = left_pw %}{% endif %}
+
+{% assign right_pw = right[4] | strip %}
+{% assign right_ph = right[5] | strip %}
+{% if right_pw == nil or right_pw == '' %}{% assign right_pw = '0.36' %}{% endif %}
+{% if right_ph == nil or right_ph == '' %}{% assign right_ph = right_pw %}{% endif %}
+
+{% assign eyesize = page.squeak-eyes-size | default: 140 %}
+{% if include.mode == "hover-map" %}
+<style>
+    body {
+        --eye-size: calc({{ eyesize }}px * {{ eyescale }});
+        --x: 0px;
+        --y: 0px;
+    }
+</style>
+
+<script>
+(() => {
+    const body = document.body;
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion) {
+        body.style.setProperty('--x', '0px');
+        body.style.setProperty('--y', '0px');
+        return;
+    }
+    const xSteps = [-0.25, -0.20, -0.143, -0.071, -0.036, 0.036, 0.071, 0.143, 0.20, 0.25];
+    const ySteps = [-0.25, -0.20, -0.143, -0.071, -0.036, 0.036, 0.071, 0.143, 0.20, 0.25];
+    let lastColumn = -1;
+    let lastRow = -1;
+
+    const update = (clientX, clientY) => {
+        const width = window.innerWidth || 1;
+        const height = window.innerHeight || 1;
+        const column = Math.max(0, Math.min(9, Math.floor((clientX / width) * 10)));
+        const row = Math.max(0, Math.min(9, Math.floor((clientY / height) * 10)));
+        if (column === lastColumn && row === lastRow) return;
+        lastColumn = column;
+        lastRow = row;
+        body.style.setProperty('--x', `calc(var(--eye-size) * ${xSteps[column]})`);
+        body.style.setProperty('--y', `calc(var(--eye-size) * ${ySteps[row]})`);
+    };
+
+    const reset = () => {
+        lastColumn = -1;
+        lastRow = -1;
+        body.style.setProperty('--x', '0px');
+        body.style.setProperty('--y', '0px');
+    };
+
+    const updateFromPoint = (clientX, clientY) => update(clientX, clientY);
+    const updateFromTouch = (event) => {
+        const touch = event.touches[0] || event.changedTouches[0];
+        if (touch) updateFromPoint(touch.clientX, touch.clientY);
+    };
+
+    window.addEventListener('pointermove', (event) => update(event.clientX, event.clientY), { passive: true });
+    window.addEventListener('pointerdown', (event) => update(event.clientX, event.clientY), { passive: true });
+    window.addEventListener('pointerleave', reset, { passive: true });
+    window.addEventListener('touchstart', updateFromTouch, { passive: true });
+    window.addEventListener('touchmove', updateFromTouch, { passive: true });
+    window.addEventListener('touchend', reset, { passive: true });
+    window.addEventListener('touchcancel', reset, { passive: true });
+    document.addEventListener('mouseout', (event) => {
+        if (!event.relatedTarget) reset();
+    }, { passive: true });
+    window.addEventListener('blur', reset);
+    reset();
+})();
+</script>
+{% else %}
+<style>
+    .squeak-logo-wrap { display: inline-block; }
+    .eyes-layer {
+        position: absolute;
+        inset: 0;
+        z-index: 61;
+        pointer-events: none;
+        --eye-size: calc({{ eyesize }}px * {{ eyescale }});
+    }
+
+    .eyes-eye {
+        position: absolute;
+        width: var(--eye-width);
+        height: var(--eye-height);
+        margin-left: calc(-1 * var(--eye-width) / 2);
+        margin-top: calc(-1 * var(--eye-height) / 2);
+        background: rgba(0, 0, 0, 1.0);
+        border-radius: 50%/50%;
+        border: 2px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        pointer-events: none;
+    }
+
+    .eyes-eye .eyes-pupil {
+        width: calc(var(--eye-width) * var(--pupil-w));
+        height: calc(var(--eye-height) * var(--pupil-h));
+        background: #fff;
+        border-radius: 50%/50%;
+        transform: translate(
+            calc(var(--x, 0px) * (var(--eye-width) / var(--eye-size)) * var(--motion-scale-x, 1)),
+            calc(var(--y, 0px) * (var(--eye-height) / var(--eye-size)) * var(--motion-scale-y, 1))
+        );
+        transition: transform 420ms cubic-bezier(.22,.9,.3,1);
+        pointer-events: none;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .eyes-eye .eyes-pupil {
+            transition: none;
+            transform: translate(0, 0);
+        }
+    }
+
+    .eyes-eye.left {
+        left: calc({{ left[0] | default: 0.25 }} * 100%);
+        top: calc({{ left[1] | default: 0.5 }} * 100%);
+        --eye-width: calc(var(--eye-size) * {{ left_w }});
+        --eye-height: calc(var(--eye-size) * {{ left_h }});
+        --pupil-w: {{ left_pw }};
+        --pupil-h: {{ left_ph }};
+        /* motion scale to avoid pupil protruding: clamp to [0,1] of (2 - 2*pupilFraction) */
+        --motion-scale-x: clamp(0, calc(2 - 2 * var(--pupil-w)), 1);
+        --motion-scale-y: clamp(0, calc(2 - 2 * var(--pupil-h)), 1);
+    }
+    .eyes-eye.right {
+        left: calc({{ right[0] | default: 0.75 }} * 100%);
+        top: calc({{ right[1] | default: 0.5 }} * 100%);
+        --eye-width: calc(var(--eye-size) * {{ right_w }});
+        --eye-height: calc(var(--eye-size) * {{ right_h }});
+        --pupil-w: {{ right_pw }};
+        --pupil-h: {{ right_ph }};
+        --motion-scale-x: clamp(0, calc(2 - 2 * var(--pupil-w)), 1);
+        --motion-scale-y: clamp(0, calc(2 - 2 * var(--pupil-h)), 1);
+    }
+
+    @media (max-width: 673px) {
+        
+    }
+</style>
+
+<div class="eyes-layer" aria-hidden="true">
+    <div class="eyes-eye left"><div class="eyes-pupil"></div></div>
+    <div class="eyes-eye right"><div class="eyes-pupil"></div></div>
+</div>
+{% endif %}

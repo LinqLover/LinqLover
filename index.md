@@ -1,6 +1,7 @@
 ---
-layout: portfolio
 title: Christoph Thiede
+squeak-logo: ./squeak.png
+squeak-eyes-pos: "0.39@0.54@0.128@0.15@0.39@0.45,0.62@0.55@0.128@0.16@0.39@0.45"
 ---
 
 Hi, I‘m Christoph! I am a PhD Student of software engineering at the [Software Architecture Group @ HPI](https://hpi.de/swa) in Potsdam, Germany. My current research interests include:
