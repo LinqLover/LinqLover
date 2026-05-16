@@ -1,7 +1,6 @@
 ---
-layout: portfolio
 title: Christoph Thiede
-description: PhD Student of Software Engineering
+description: null
 ---
 
 Hi, I‘m Christoph! I am a PhD Student of Software Engineering at the [Software Architecture Group @ HPI](https://hpi.de/swa) in Potsdam, Germany. My current research interests include:
@@ -22,7 +21,7 @@ Spotlight of things I'm proud of:
 - **[Oopsie](https://github.com/hpi-swa-lab/osvm-oopsie):** A proxy framework for the OpenSmalltalk-VM simulator, enabling the bootstrapping of Scorch/Sista and improving the debugging experience for VM components.
 - **Contributions to Squeak:** I love to explore and improve various corners of the system, ranging from programming tools and debugging infrastructure over the Morphic UI framework to standard libraries such as the regular expression engine. I have supported recent Squeak [releases](https://squeak.org/release_notes/) and co-authored the latest version of the free [Squeak by Example textbook](https://github.com/hpi-swa-lab/SqueakByExample-english?tab=readme-ov-file#readme).
 
-Check out my [GitHub profile](https://github.com/LinqLover) for further projects, follow me on the [squeak-dev mailing list](https://lists.squeakfoundation.org/archives/search?q=christoph+thiede&page=1&sort=date-desc), stalk me on [Google Scholar](https://scholar.google.com/citations?user=VUL8kyoAAAAJ&hl=de) or [ORCID](https://orcid.org/0000-0002-7442-8216), or send me an [e-mail](mailto:christoph.thiede@outlook.de).
+Check out my [GitHub profile](https://github.com/LinqLover) for further projects, follow me on the [squeak-dev mailing list](https://lists.squeakfoundation.org/archives/search?q=christoph+thiede&page=1&sort=date-desc), stalk me on [Google Scholar](https://scholar.google.com/citations?user=VUL8kyoAAAAJ) or [ORCID](https://orcid.org/0000-0002-7442-8216), or send me an [e-mail](mailto:christoph.thiede@outlook.de).
 
 ## Publications
 
@@ -54,4 +53,4 @@ Check out my [GitHub profile](https://github.com/LinqLover) for further projects
 
 ## 2025 Archive
 
-Find older experiences, education, and featured projects [here](./archive.md).
+Find older experiences, education, and featured projects [here](https://linqlover.github.io/archive.html).
