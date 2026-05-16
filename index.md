@@ -3,7 +3,7 @@ layout: portfolio
 title: Christoph Thiede
 ---
 
-Hi, I‘m Christoph! I am a PhD Student of Software Engineering at the [Software Architecture Group @ HPI](https://hpi.de/swa) in Potsdam, Germany. My current research interests include:
+Hi, I‘m Christoph! I am a PhD Student of software engineering at the [Software Architecture Group @ HPI](https://hpi.de/swa) in Potsdam, Germany. My current research interests include:
 
 - exploratory programming
 - omniscient debugging
@@ -12,7 +12,7 @@ Hi, I‘m Christoph! I am a PhD Student of Software Engineering at the [Software
 
 My go-to vehicle for research projects and beloved second home is the [Squeak/Smalltalk environment](https://squeak.org/). Currently, I am serving as a member of the Squeak Oversight Board and as a core developer of the project.
 
-Spotlight of things I'm proud of:
+Spotlight of some things I'm proud of:
 
 - **[TraceDebugger](https://github.com/hpi-swa-lab/squeak-tracedebugger):** A back-in-time debugger for Squeak, featuring novel perspectives for state-centric exploration of program traces.
 - **[Talking to Objects in Natural Language](https://www.hpi.uni-potsdam.de/hirschfeld/publications/media/ThiedeTaeumelBoehmeHirschfeld_2024_TalkingToObjectsInNaturalLanguageTowardSemanticToolsForExploratoryProgramming_AcmDL.pdf):** Stop sending your Smalltalk objects messages, start chatting with them through an AI interface. I also wrote my [master's thesis](https://www.researchgate.net/publication/384467824_The_Semantic_Workspace_Augmenting_Exploratory_Programming_with_Integrated_Generative_AI_Tools) about this idea.

@@ -4,7 +4,7 @@
 - ⚙ I have a strong interest in building & researching programming & debugging tools
 - 🎈 I'm a core developer of [Squeak/Smalltalk](https://squeak.org) (browse all contributions [here](https://html-preview.github.io/?url=https://github.com/LinqLover/LinqLover/blob/artifacts/squeak-ct-contribs-outline-formatted.html) or view all latest mailing list messages [here](https://lists.squeakfoundation.org/archives/search?q=christoph+thiede&page=1&sort=date-desc))
 - 🚧 Working on [SemanticText](https://github.com/LinqLover/Squeak-SemanticText), [TraceDebugger](https://github.com/hpi-swa-lab/squeak-tracedebugger), and more
-- 📃 Read my [portfolio](https://linqlover.github.io/)
+- 📃 Check out my [website](https://linqlover.github.io/)
 - ⚡ `\x72(e)[g](\1(?(2)[sS]|x)){1,2}=😎`
 
 <!--
