@@ -1,6 +1,6 @@
 ---
+layout: portfolio
 title: Christoph Thiede
-description: null
 ---
 
 Hi, I‘m Christoph! I am a PhD Student of Software Engineering at the [Software Architecture Group @ HPI](https://hpi.de/swa) in Potsdam, Germany. My current research interests include:
