@@ -39,7 +39,7 @@ Check out my [GitHub profile](https://github.com/LinqLover) for further projects
 
 ## Talks
 
-- Wie wartet man die virtuelle Maschine für Squeak? (How do you maintain the VM for Squeak?) On [*Squeak Meeting 2025*](https://squeak.de/news/2025/10/18/squeak_treffen/), November 22, 2025. Squeak e.V., Potsdam, Germany.
+- [Wie wartet man die virtuelle Maschine für Squeak? (How do you maintain the VM for Squeak?)](https://raw.githubusercontent.com/hpi-swa-lab/osvm-oopsie/refs/heads/main/assets/slides.pdf) On [*Squeak Meeting 2025*](https://squeak.de/news/2025/10/18/squeak_treffen/), November 22, 2025. Squeak e.V., Potsdam, Germany.
 - Yaros: Yet Another Remote Object Server for Squeak. On [*Squeak Meeting 2025*](https://squeak.de/news/2025/10/18/squeak_treffen/), November 22, 2025. Squeak e.V., Potsdam, Germany.
 - [SemanticText: Improving Exploratory Programming in Squeak with Generative AI.](https://linqlover.github.io/docs/2024-11-27_UKSTUG_SemanticText.html) On [*UKSTUG Online Meeting: Christoph Thiede on SemanticText and Guille Amaral on Webside*](https://www.meetup.com/de-DE/ukstug/events/302453224/), November 27th, 2024. UK Smalltalk User Group, online.
 - Wie kann dir eine KI beim Explorieren der Objekte zur Seite stehen? (How Can AI Support You While Exploring Objects?) On [*Squeak Meeting 2024*](https://squeak.de/news/2024/09/30/squeak_treffen/), November 2, 2024. Squeak e.V., Potsdam, Germany.
