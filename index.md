@@ -41,7 +41,7 @@ Check out my [GitHub profile](https://github.com/LinqLover) for further projects
 
 ## Talks
 
-- [How to Perform a Brain Surgery on Yourself: Safe Bootstrapping for Self-Supporting Systems](https://linqlover.github.io/docs/2026-06-03_SDRSM_Bootrapping.html). On *HPI Research School on Systems Design Meeting*, June 3rd, 2026. Hasso Plattner Institute, Potsdam, Germany.
+- [How to Perform a Brain Surgery on Yourself: Safe Bootstrapping for Self-Supporting Systems](https://linqlover.github.io/docs/2026-06-03_SDRSM_Bootstrapping.html). On *HPI Research School on Systems Design Meeting*, June 3rd, 2026. Hasso Plattner Institute, Potsdam, Germany.
 - [Wie wartet man die virtuelle Maschine für Squeak? (How do you maintain the VM for Squeak?)](https://raw.githubusercontent.com/hpi-swa-lab/osvm-oopsie/refs/heads/main/assets/slides.pdf) On [*Squeak Meeting 2025*](https://squeak.de/news/2025/10/18/squeak_treffen/), November 22, 2025. Squeak e.V., Potsdam, Germany.
 - Yaros: Yet Another Remote Object Server for Squeak. On [*Squeak Meeting 2025*](https://squeak.de/news/2025/10/18/squeak_treffen/), November 22, 2025. Squeak e.V., Potsdam, Germany.
 - [SemanticText: Improving Exploratory Programming in Squeak with Generative AI.](https://linqlover.github.io/docs/2024-11-27_UKSTUG_SemanticText.html) On [*UKSTUG Online Meeting: Christoph Thiede on SemanticText and Guille Amaral on Webside*](https://www.meetup.com/de-DE/ukstug/events/302453224/), November 27th, 2024. UK Smalltalk User Group, online.

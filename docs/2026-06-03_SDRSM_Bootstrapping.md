@@ -9,4 +9,4 @@ In this talk, I will briefly compare several designs of self-supporting systems 
 
 ---
 
-Slides: [PDF (with embedded screencasts)](https://linqlover.github.io/assets/slides/SDRSM_Bootstrapping.pdf)
+Slides: [PDF (with embedded screencasts)](https://linqlover.github.io/slides/SDRSM%20Bootstrapping.pdf)
